@@ -1,39 +1,48 @@
-# 网络信息协会开发部授课仓库
+## Dress - 面向可爱的开发部部员的 git 学习实践项目 on GitHub
 
-```
-  _   _        _  _         __   __ _   _  _   _     _    
- | | | |  ___ | || |  ___   \ \ / /| | | || \ | |   / \   
- | |_| | / _ \| || | / _ \   \ V / | | | ||  \| |  / _ \  
- |  _  ||  __/| || || (_) |   | |  | |_| || |\  | / ___ \ 
- |_| |_| \___||_||_| \___/    |_|   \___/ |_| \_|/_/   \_\
+### Dress - A Study and Practice project of git.
+# ***If you are feeling puzzled and weird about the project, please read [README DETAIL](https://github.com/Cannedcha/Dress/blob/master/README_DETAIL.md)***
 
-```
+[![Contributors](https://img.shields.io/github/contributors/komeiji-satori/Dress.svg)](https://github.com/komeiji-satori/Dress/graphs/contributors)
+[![Build Status](https://www.travis-ci.org/komeiji-satori/Dress.svg?branch=master)](https://www.travis-ci.org/komeiji-satori/Dress)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/komeiji-satori/Dress.svg)
+[![License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 
-## Why Github
+项目很简单且并不要求你贡献代码，没有编程技能都可以参加。你可以从这里学习从克隆项目，创建分支，提交和同步修改，到合并分支请求的整套流程，一次即可熟悉 Git/GitHub 的使用。 
 
-Github 是世界上最大的程序员协作平台和代码分享平台。通过在新生教学的第一课引入 Git 和 Github，我希望将 Git 的使用方法深度融入授课过程中，为大家培养一个好习惯。
+This simple repository requires no contribution of code, so that you can participate in it without having any coding skills. This project helps you to learn the whole process of cloning a repository, creating a branch, pushing and pulling commits, and making a pull request, thus you can have a good knowledge of Git/GitHub's usage.
 
-## 开发部课程规划
+**当然，你还要事先准备至少一张你的照片。**
 
-上半年我们计划讲解 Web 前端知识，并视教学进展引入现代 Web 前端开发知识。最终目标是让大家能够掌握前端三件套 HTML CSS JS的基本技能。
+**Of course, you need to prepare a cross-dressing photo of yours first.**
 
-* 01_Git基本操作
-讲解代码版本管理和协作工具 Git 的基本使用
-* 02_HTML基础
-讲解定义网页元素的标记语言——HTML
-* 03_HTML进阶
-对HTML的进一步讲解
+### 文件夹命名规则和文件标准
+ - 不接受盗图和未授权转载他人图片
+ - 请尽量使用有意义的文件夹名字
+ - 可使用你的 GitHub ID 或者其他社交平台上非中文的 ID 来命名文件夹
+ - 尽量不要在文件夹名字中出现空格
+ - 影响排序的文件夹命名 (例如 ```AAAA.Folder```, ```0.Folder```, ```111Folder```) 会被 Close Pull Request
+ - 如果需要在你的文件夹内创建描述文件,请尽量使用 [Markdown](https://en.wikipedia.org/wiki/Markdown) 语法来编写
+ - 图片请尽量压缩大小, 并 [删除 EXIF 信息](https://github.com/komeiji-satori/Dress/blob/master/CONTRIBUTING.md), 图片质量过低的 Pull Request 会被 Close
+ 
 
-...... and more
+### Online Demo
+- [https://drsrel.github.io/](https://drsrel.github.io/)
 
-## 课程考核与考勤
+- [http://satori.mycard.moe/](http://satori.mycard.moe/)
 
-> 好消息！好消息！开发部授课课程不需要学X通签到！也不需要QQ群签到！甚至不需要来上课！
+- [https://wearadress.org/](https://wearadress.org/)
 
-每节课后我们都可能会布置一些作业。通过完成作业，我们可以巩固和练习课上所学的知识。**作业是否能够在 DDL 前完成并通过检查是开发部年终学员评价的重要部分。**
+- [https://www.yoooooooooo.com/gitdress/](https://www.yoooooooooo.com/gitdress/)
 
-我们认为，想要留住学生，唯一的方法是**让课程足够吸引人**。因此，我（李大海）负责的课程均**没有课程签到**，课堂中涉及到的讲义均会在课后发放，即使你没来上课，只要在 DDL 前提交作业就可以了。因此我的课程不受理请假，没有假可请。
 
-在寒假，我们将会布置一个大作业来检验大家的学习成果。这个大作业选题非常开放，你可以选择实现一个贪吃蛇，也可以选择用 WebGL 编写一个像素MC。我们将根据创意和用心程度进行打分。得分高者将会获得网协的小奖品或福利。
+### Contributors
+[![contributors](https://opencollective.com/Dress/contributors.svg?width=890&button=false)](https://github.com/komeiji-satori/Dress/graphs/contributors)
 
-无论我们用多优渥的福利来吸引大家学习这些课程，请大家记住，在这些课程中学到的最大的收获将是**自身能力的提升**。建议大家始终以此为目标来学习这些课程。祝你们玩的开心。
+### License
+本项目采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可。  
+This repository is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+### Contributing
+请仔细阅读[CONTRIBUTING.md](https://github.com/Cannedcha/Dress/blob/master/CONTRIBUTING.md)  
+Please read [CONTRIBUTING.md](https://github.com/Cannedcha/Dress/blob/master/CONTRIBUTING.md) carefully.
