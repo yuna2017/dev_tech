@@ -25,3 +25,10 @@
 提示：**请尽量在下次DDL（上课前）完成你的作业**
 
 另外我们也可能在下节课上选出有创意的作品~~公开处刑~~向大家展示😋
+
+## 参考
+
+- VSCode安装教程：https://www.runoob.com/w3cnote/vscode-tutorial.html
+- 前端入门基础教程：https://www.runoob.com/（也包含了C语言等许多其它内容）
+- MDN：https://developer.mozilla.org/zh-CN/
+- W3SCHOOL教程：https://www.w3school.com.cn/
