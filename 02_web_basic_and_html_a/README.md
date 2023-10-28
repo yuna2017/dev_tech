@@ -18,6 +18,7 @@
 
 - VSCode安装教程：https://www.runoob.com/w3cnote/vscode-tutorial.html
 - 前端入门基础教程：https://www.runoob.com/（也包含了C语言等许多其它内容）
+- MDN：https://developer.mozilla.org/zh-CN/
 - W3SCHOOL教程：https://www.w3school.com.cn/
 
 仓库内也有以前的讲义供大家参考
