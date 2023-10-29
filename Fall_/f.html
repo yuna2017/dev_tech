@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fall_</title>
+    <script>
+        //此段比葫芦画瓢（）
+        document.addEventListener('DOMContentLoaded', function() { 
+          document.querySelector('form').addEventListener('submit', function(event) {  
+            event.preventDefault();  
+            var selectedOption = document.querySelector('input[name="choice"]:checked');  
+            var targetPage = selectedOption.getAttribute('data-target-page');  
+            window.location.href = targetPage;  
+          });  
+        });  
+        </script>
+</head><style>
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    form{
+        text-align: center;
+    }
+    body{
+    background-image:url('zy/bg.jpg');
+    background-size:cover;
+    }
+</style>
+    <h1><img src="zy\liqititle.png"></h1>
+    <p style="font-size: 3em ; color: rgba(20, 255, 82, 0.95);">(tips:选框在图片右下角哦)</p>
+    <form>
+    <label for="liqin1"><p style="font-size: 3em ; color: red;background-color: chocolate;">A.遥遥领先版</p>  <img id="001" src="zy\1.png" alt="" title="mate60"></label>
+    <input type="radio" name="choice" value="01" id="liqi1" size="1000" data-target-page="zy\ng.html">
+    <label for="liqin2"><p style="font-size: 3em ; color: yellowgreen;background-color: bisque;">B.撅gtgg版</p><img id="002" src="zy\2.png" alt="" title="嘿嘿"></label>
+    <input type="radio" name="choice" value="02" id="liqi2" size="1000" data-target-page="zy\ff.html">
+    <label for="liqin3"><p style="font-size: 3em ; color: rgba(142, 27, 209, 0.797);background-color: aqua;">C.难绷版</p><img id="003" src="zy\3.png" alt="" title="🥵"></label>
+    <input type="radio" name="choice" value="03" id="liqi3" size="1000" data-target-page="https://ys.mihoyo.com/">
+    <button type="submit" style="width: 10em;height: 5em;"><p style="size: 5em;">准备好了！！！</p></button></form>
+</body>
+</html>
