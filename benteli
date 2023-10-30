@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>本特利威廉搞笑日常</h1>
+    </div>
+    <p   style="background-color:rgba(255, 255, 0, 0.467)">
+        <b>威廉</b>，
+    </p>
+    <p><i>（William Bruce Hammington，2016年7月12日-）</i></p>
+    <p>出生于韩国，韩国搞笑艺人Sam Hammington的儿子</p>
+    <img src="本.jpg" alt="其实没有图片"width="304" height="228">
+    <div>
+    <p style="background-color:rgb(255,255,0.467)">
+       <b>本特利，</b>
+    </p>
+    <p><del>威廉的弟弟</del></p>
+    <p><i>（Bentley，2017年11月8日-）</i></p>
+    <p>Sam Hammington和YumiJung的二儿子。</p>
+    <img src="本特利2.jpg" alt="该图片无法显示"width="304" height="228">
+    <h2 style="background-color:rgba(255, 255, 0, 0.907)">你感兴趣吗？</h2>
+    <p>超人回来了综艺中，威本一家好像被搞笑之神眷顾一般，他们之间的搞笑日常你感兴趣吗？感兴趣请点击下方链接！</p>
+    <a href="https://www.bilibili.com/video/BV18X4y1X7UT/?spm_id_from=333.337.search-card.all.click">快点这里，这里！</a>
+    </div>
+    <div>
+        <h3 style="background-color:rgba(255, 255, 0, 0.889)">看了上面的视频，你心动了吗？下面还有更多哦</h3>
+    </div>
+    <table border="1">
+        <tr>
+          <th>            name           </th>
+          <th>      孝 子 威 廉 合 集    </th>
+          <th>      本 特 利 受 难 记     </th>
+        </tr>
+        <tr>
+          <td>       链 接 点 一 点      </td>
+          <td><a href="https://www.bilibili.com/video/BV1bz411b71q/?spm_id_from=333.337.search-card.all.click">   合集   </a></td>
+          <td><a href="https://www.bilibili.com/video/BV1Vy4y1V7gA/?spm_id_from=333.337.search-card.all.click">  受难记  </a></td>
+        </tr>
+        </table>
+    <h2>除了搞笑日常，威本的生活中还充满了温情！</h2>
+    <p>
+        <a href="https://www.bilibili.com/video/BV1uP4y147YE/?spm_id_from=333.337.search-card.all.click">点一点</a>
+    </p>
+    <p>看完了，你更喜欢他们中的哪一个，或者是都喜欢呢。</p>
+        <form >
+            <input type="checkbox">威廉<br>
+            <input type="checkbox">本特利
+            </form>
+</body>
+</html> 
