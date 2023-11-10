@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+.header{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+background-color: aliceblue;
+}
+
+.try{
+    height: 75px;
+    width: 600px;
+}
+.cute{
+    color: aqua;
+    font-size: 150px;
+    margin-left: 400px;
+    font-family: SimSun;
+    animation: kitty 2s ease-in-out infinite  none;
+}
+
+.nb{
+    position: absolute;
+    left: 485px;
+    font-size: 120px;
+    font-family: KaiTi;
+    transform: translate(-50%,-50%);
+    margin: 10%;
+    padding: 0;
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    color: #484848;
+    animation: yylx 1.4s linear  infinite ;
+}
+p{
+    font-size: medium;
+    font-family: FangSong;
+}
+
+@keyframes kitty
+ {
+    from{color: red;}
+    15%{color: orange;}
+    30%{color: yellow;}
+    45%{color: green;}
+    65%{color: lightgreen;}
+    80%{color: blue;}
+    100%{color: purple;}
+ }
+ @keyframes yylx {
+    0%{color: #484848;
+    text-shadow: none;
+}
+40%
+{
+    color: #484848;
+}
+70%{
+    color: #fff900;
+    text-shadow: none;
+}
+100%{
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900 , 0 0 50px #ff6c00;
+
+}
+    
+ }
+ 
