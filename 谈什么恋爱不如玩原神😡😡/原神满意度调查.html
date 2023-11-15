@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原神满意度调查</title>
+</head>
+<style>
+    body {     
+        background-image: url('dc/ff.jpg');
+        background-size:cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .commit-box {
+    margin-left: 500px; 
+    margin-top: 50px;
+    margin-right: 500px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.345);
+  }
+    </style>
+<body>
+<h1 style="color:rgb(10, 92, 159); text-align: center;">原神满意度调查</h1>
+<form action="#" name="is" onsubmit="pd()" style="text-align: center;">
+    <script>
+         document.addEventListener('DOMContentLoaded', function() { 
+          document.querySelector('form').addEventListener('submit', function(event) {  
+            event.preventDefault();  
+            var selectedOption = document.querySelector('input[name="isornot"]:checked');  
+            var targetPage = selectedOption.getAttribute('data-target-page');  
+            window.location.href = targetPage;  
+          });  
+        });  
+    </script>
+<div class="commit-box">
+<label for="">
+    
+    <p>玩过原神喵？</p>
+    <p>玩过喵</p><input type="radio"name="isornot" value="111" data-target-page="dc\dc1.html">
+    <p>没有喵</p><input type="radio"name="isornot" value="000"data-target-page="https://autopatchcn.yuanshen.com/client_app/download/launcher/20231026165011_31JrRLv7IPd4QbTX/mihoyo/yuanshen_setup_20231018115430.exe">
+    <hr>
+    <input type="submit"name="isornot">
+</label>
+    <script>
+function pd() {
+    var x = document.forms["is"]["isornot"].value;
+    if (x == "000") {
+        alert("还不快下载原神😡😡");
+    }
+    if(x != "000"&&x != "111"){
+        alert("怎么不选喵");
+    }
+}
+</script>
+</form>
+</div>
+</body>
+</html>
