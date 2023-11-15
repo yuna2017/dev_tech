@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原神满意度调查</title>
+</head>
+<style>
+    body {     
+        background-image: url('ff.jpg');
+        background-size:cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .commit-box {
+    margin-left: 500px; 
+    margin-top: 50px;
+    margin-right: 500px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.345);
+  }
+    </style>
+<body>
+<h1 style="color:rgb(10, 92, 159); text-align: center;font-size: 64px;">原神满意度调查</h1>
+<form action="#" name="is"  onsubmit="mm()" style="text-align: center;">
+<div class="commit-box">
+<label for="">
+<div>Q1：您的性别是:<input type="radio"name="sex" id="man">♂<input type="radio"name="sex" id="woman">♀<input type="radio"name="sex" id="homo">homo<input type="radio"name="sex" id="ot">其他</div>
+<div>Q2：您的出生年龄区间为：<select name="ages" id="age">
+    <option value="-1980">1980年及之以前</option>
+    <option value="1981-1990">1981-1990</option>
+    <option value="1991-2000">1991-2000</option>
+    <option value="2001-2010">2001-2010</option>
+    <option value="2011-9999">2011-9999</option>
+     </select></div>
+<div>Q3：您的UID是（送1000纠缠）<input type="text"name="uid" id="UID"></div>
+<div>Q4:在已经出场的国度中，您喜欢的是<p><input type="checkbox"name="areas" id="蒙德">Mondstadt 蒙德<input type="checkbox"name="areas" id="璃月">Liyue 璃月<input type="checkbox"name="areas" id="稻妻">Inazuma 稻妻<input type="checkbox"name="areas" id="须弥">Sumeru 须弥<input type="checkbox"name="areas" id="枫丹">Fontaine 枫丹</p></div>
+<div>Q5：你对原神还有什么建议：<p><textarea rows="10" cols="30">
+    </textarea></p></div>
+    <input type="submit">
+</label>
+<script>function mm(){
+    alert("提交不了喵");   
+}
+</script></form>
+</div>
+</body>
+</html>
