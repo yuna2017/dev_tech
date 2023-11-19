@@ -1,0 +1,12 @@
+.login-box input[type="text"],input[type="tel"],input[type="radio"],input[type="checkbox"],input[type="email"],input[type="date"],input[type="submit"]
+{
+    background-color: transparent;
+    border-width:0.8px;
+
+}
+
+.checkbox-container input[type="radio"]:checked+label
+{
+    background-color: transparent;
+    
+}
