@@ -1,0 +1,41 @@
+body{
+    background-image:url('zy/bg.png') ;
+    background-size:cover ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.bt{
+    font-size: 24px;
+    font-style: normal;
+    color: whitesmoke;
+    font-weight: normal;
+}
+#mbx{
+    margin-left :400px;
+    width: 800px;
+    margin-top: 100px;
+    position: relative;
+    border-top-right-radius:45px ;
+    background-color: rgba(0, 0, 0,0.225);
+    border-style: double;
+    border-color:rgba(173, 174, 178, 0.721)
+}
+.rq{
+    color: rgba(222,190,121);
+    font-size: 11px;
+}
+*{
+    text-indent :20px;
+}
+.zw{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 50%;
+}
+.zw1{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
