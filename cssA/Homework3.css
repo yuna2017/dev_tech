@@ -1,0 +1,17 @@
+
+.undertext{
+    color:#bbb;
+    font-size: 12px;
+    font-style: normal;
+    font-family:微软雅黑;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right:0;
+    height: 39px;
+    padding-top: 1px;
+    zoom: 1;
+    line-height: 39px;
+
+}
