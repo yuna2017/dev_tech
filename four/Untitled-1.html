@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>全国气温距平分布图</title>  
+    <style>  
+        .centered-image {  
+            display: block;  
+            margin-left: auto;  
+            margin-right: auto;  
+            width: 80%;  
+        }  
+    </style>  
+</head>  
+<body> 
+    <center>
+    <h1>全国气温距平分布图</h1>  
+    </center> 
+    <img class="centered-image" src="A.png" alt="图片">  
+    <p align="left">气温偏高，降水接近常年，但分布不均。7月,全国平均气温23.0℃,较常年同期偏高0.9℃；广西气温为历史同期最高,海南、河北和云南为历史第2高;新疆淖毛湖(45.3℃)、河北井陉和河南林州(均为43.3℃)等20个国家气象站日最高气温达到或突破历史极值。7月，全国平均降水量为122.2毫米，接近常年同期(121.7毫米);北京和河北降水量为历史同期第3多,新疆为第2少;江苏灌云(348.2毫米)、福建福州(295.6毫米)等33站日降水量突破历史极值。7月16日至8月1日，全国平均降水量为72.1毫米，较常年同期(65.6毫米)偏多10%,为近10年最多;华北、黄淮、江南等地降水较常年同期偏多5成至2倍。</p> 
+    <style>  
+        input[type=text] {  
+            width: 100%;  
+            padding: 12px 20px;  
+            margin: 8px 0;  
+            box-sizing: border-box;  
+        }  
+        button {  
+            background-color: rgb(24, 21, 195);  
+            color: white;  
+            padding: 14px 20px;  
+            margin: 8px 0;  
+            width: 100%;    
+        }  
+    </style>  
+</head>  
+<body>  
+    <h2>点击此处查询天气</h2>  
+    <form id="weather">  
+        <input type="text" id="cityInput" placeholder="请输入城市名">  
+        <button onclick="getWeather()">查询</button>  
+    </form>  
+</body>  
+</html>
