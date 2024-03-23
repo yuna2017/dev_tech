@@ -1,0 +1,151 @@
+class Student:
+
+  def __init__(self, name, age):
+
+   self.name = name
+
+   self.age = age
+
+
+
+  def __str__(self):
+
+   return f"姓名：{self.name}, 年龄：{self.age}"
+
+
+    
+class StudentManager:
+
+    def __init__(self):
+
+    self.students = []
+
+
+    
+    def add_student(self, student):
+
+     self.students.append(student)
+
+     print(f"学员 {student.name} 已添加。")
+
+
+    
+    def remove_student(self, name):
+
+     for student in self.students:
+
+      if student.name == name:
+
+         self.students.remove(student)
+
+         print(f"学员 {name} 已删除。")
+
+         return
+
+    print("学员未找到。")
+
+
+    
+    def update_student(self, name, new_name, new_age):
+
+      for student in self.students:
+
+        if student.name == name:
+
+        student.name = new_name
+
+        student.age = new_age
+
+        print(f"学员信息已更新为：姓名：{new_name}, 年龄：{new_age}")
+
+        return
+
+    print("学员未找到。")
+
+
+    def search_student(self, name):
+
+      for student in self.students:
+
+      if student.name == name:
+
+      print(student)
+
+      return
+
+    print("学员未找到。")
+
+
+    
+    def display_students(self):
+
+      if not self.students:
+
+      print("没有学员信息。")
+
+      else:
+
+      for student in self.students:
+
+      print(student)
+
+
+      
+    def run(self):
+
+      while True:
+
+      print("\n1.添加学员\n2.删除学员\n3.修改学员信息\n4.查询学员信息\n5.显示所有学员信息\n6.退出系统")
+
+      option = input("请选择操作（1-6）：")
+
+    if option == '1':
+
+      name = input("请输入学员姓名：")
+
+      age = input("请输入学员年龄：")
+
+      self.add_student(Student(name, int(age)))
+
+    elif option == '2':
+
+      name = input("请输入要删除的学员姓名：")
+
+      self.remove_student(name)
+
+    elif option == '3':
+
+      name = input("请输入要修改的学员姓名：")
+
+      new_name = input("请输入新的姓名：")
+
+      new_age = input("请输入新的年龄：")
+
+      self.update_student(name, new_name, int(new_age))
+
+    elif option == '4':
+
+      name = input("请输入要查询的学员姓名：")
+
+      self.search_student(name)
+
+    elif option == '5':
+
+      self.display_students()
+
+    elif option == '6':
+
+      print("退出系统。")
+
+      break
+
+    else:
+
+      print("无效的选项，请重新选择。")
+
+# 创建并运行学员管理系统
+    
+
+manager = StudentManager()
+
+manager.run()
